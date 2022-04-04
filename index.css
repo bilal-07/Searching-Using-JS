@@ -1,0 +1,40 @@
+.search-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  justify-content: center;
+  text-align: center;
+}
+
+input {
+  font-size: 1rem;
+  width: 50%;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.users-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.card {
+  border: 1px solid #000;
+  background-color: #fff;
+  padding: 0.5rem;
+}
+
+.card > .header {
+  margin-bottom: 0.25rem;
+}
+
+.card > .body {
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.hide {
+  display: none;
+}
